@@ -1,3 +1,67 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* shared styles */
+
+.font-lato {
+    font-family: "Lato", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
+    margin-top: 24px;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px 240px 0px 240px;
+    background-color: #E554731A;
+}
+
+.banner-content {
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    color: #272727;
+}
+
+.banner-img {
+    display: flex;
+    position: bottom;
+}
+
+.banner-img img {
+    width: 100%;
 }
