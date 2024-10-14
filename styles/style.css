@@ -116,3 +116,38 @@ main {
 #featured-img-3 {
     background-color: #477D1126;
 }
+
+.more-flower-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.more-flower-container>a>h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #272727;
+}
+
+/* all service section styles */
+
+.service-container {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    margin-top: 128px;
+    padding: 85px 175px;
+    background-color: #2727270D;
+    border-radius: 8px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service>p {
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 70%;
+    margin-top: 24px;
+}
