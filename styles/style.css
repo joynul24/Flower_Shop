@@ -136,7 +136,7 @@ main {
 /* all service section styles */
 
 .service-container {
-    display: none;
+    display: flex;
     gap: 60px;
     justify-content: space-between;
     margin-top: 128px;
@@ -203,5 +203,14 @@ main {
     }
     .more-flower-container {
         display: none;
+    }
+    .service-container {
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 20px;
+        gap: 0px;
+    }
+    .service {
+        margin-top: 100px;
     }
 }
