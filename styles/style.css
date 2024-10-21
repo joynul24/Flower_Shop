@@ -136,7 +136,7 @@ main {
 /* all service section styles */
 
 .service-container {
-    display: flex;
+    display: none;
     gap: 60px;
     justify-content: space-between;
     margin-top: 128px;
@@ -189,5 +189,19 @@ main {
     }
     .banner-img img{
         width: 60%;
+    }
+    .featured-content {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .featured-img-container {
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .featured-img {
+        margin-bottom: 50px;
+    }
+    .more-flower-container {
+        display: none;
     }
 }
